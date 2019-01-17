@@ -30,8 +30,11 @@ const RestController = (target) => {
 	}
 }
 
+const requireDir = require('./lib/requireDir');
+
 module.exports = {
 	app,
 	GetMapping,
-	RestController
+	RestController,
+	requireDir
 };
